@@ -1,0 +1,43 @@
+{
+  "namespace": "radar",
+  "type": "record",
+  "name": "AirportFlights",
+  "fields": [
+    {
+      "name": "from",
+      "type": "string"
+    },
+    {
+      "name": "to",
+      "type": "string"
+    },
+    {
+      "name": "departureTime",
+      "type": "long"
+    },
+    {
+      "name": "arrivalTime",
+      "type": "long"
+    },
+    {
+      "name": "duration",
+      "type": "long"
+    },
+    {
+      "name": "departureTimeStamp",
+      "type": "string"
+    },
+    {
+      "name": "arrivalTimeStamp",
+      "type": "string"
+    },
+    {
+      "name": "departureAirportCode",
+      "type": "string"
+    },
+    {
+      "name": "arrivalAirportConde",
+      "type": "string"
+    }
+  ]
+}
